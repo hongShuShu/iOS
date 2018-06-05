@@ -18,18 +18,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    Node *node = [[Node alloc] initWithElement:@"123"];
-    
-    SingleLinkList *list = [[SingleLinkList alloc] init];
-    
-    NSLog(@"%d",list.is_empty);
-    [list append:node];
-    NSLog(@"%d",list.is_empty);
-    NSLog(@"%ld",list.length);
-
+    [self test_single_link_list];
 }
 
+//  单链表测试
+- (void)test_single_link_list {
+    SingleLinkList *list = [[SingleLinkList alloc] init];
+    
+    //    NSLog(@"%d",list.is_empty);
+    [list append:@"1"];
+    [list append:@"3"];
+    [list insertAtIndex:1 element:@"2"];
+    [list add:@"0"];
+    
+    [list remove:@"1"];
+    BOOL result = [list findElement:@"2"];
+    if (result) {
+        NSLog(@"链表里存在元素");
+    } else {
+        NSLog(@"链表里不存在元素");
+    }
+    
+    //    NSLog(@"%d",list.is_empty);
+    //    NSLog(@"%ld",list.length);
+    
+    [list travel];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
