@@ -1,18 +1,18 @@
 //
-//  single_link_list.h
+//  double_link_list.h
 //  DataStruct
 //
-//  Created by xhwl on 2018/6/5.
+//  Created by xhwl on 2018/6/6.
 //  Copyright © 2018年 红蜀黍. All rights reserved.
-//  单链表
+//  双链表
 
 #import <Foundation/Foundation.h>
-#import "Node.h"
 
-// 单链表
-@interface SingleLinkList : NSObject
+@class DoubleNode;
+@interface DoubleLinkList : NSObject
 
-- (instancetype)initWithNode:(Node *)node;
+
+- (instancetype)initWithNode:(DoubleNode *)node;
 
 /**
  *  链表是否为空

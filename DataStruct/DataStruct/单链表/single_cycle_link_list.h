@@ -1,16 +1,15 @@
 //
-//  single_link_list.h
+//  single_cycle_link_list.h
 //  DataStruct
 //
 //  Created by xhwl on 2018/6/5.
 //  Copyright © 2018年 红蜀黍. All rights reserved.
-//  单链表
+//  单向循环链表
 
 #import <Foundation/Foundation.h>
 #import "Node.h"
 
-// 单链表
-@interface SingleLinkList : NSObject
+@interface SingleCycleLinkList : NSObject
 
 - (instancetype)initWithNode:(Node *)node;
 
