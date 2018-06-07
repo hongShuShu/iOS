@@ -11,6 +11,10 @@
 #import "single_cycle_link_list.h"
 #import "double_link_list.h"
 
+#import "BubbleSort.h"
+#import "SelectSort.h"
+#import "InsertSort.h"
+
 @interface ViewController ()
 
 @end
@@ -22,8 +26,12 @@
     
 //    [self test_single_link_list];
 //    [self test_single_cycle_link_list];
+//    [self test_double_link_list];
     
-    [self test_double_link_list];
+//    [self bubblesort];
+//    [self selectSort];
+    
+    [self insertSort];
 }
 
 #pragma mark --------------------------------------------------------
@@ -101,6 +109,29 @@
     //    NSLog(@"%ld",list.length);
     
     [list travel];
+}
+
+#pragma mark - 排序
+// 冒泡排序
+- (void)bubblesort {
+    NSArray *array = [BubbleSort asc_sort:@[@5,@2,@1,@4,@3,@0]];
+    for (NSNumber *number in array) {
+        NSLog(@"number:%@",number);
+    }
+}
+// 选择排序
+- (void)selectSort {
+    NSArray *array = [SelectSort sort:@[@5,@2,@1,@4,@3,@0]];
+    for (NSNumber *number in array) {
+        NSLog(@"number:%@",number);
+    }
+}
+// 插入排序
+- (void)insertSort {
+    NSArray *array = [InsertSort sort:@[@5,@2,@1,@4,@3,@0]];
+    for (NSNumber *number in array) {
+        NSLog(@"number:%@",number);
+    }
 }
 
 

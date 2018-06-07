@@ -13,11 +13,14 @@
 		2A39227120C639D700EF4275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A39227020C639D700EF4275 /* Assets.xcassets */; };
 		2A39227420C639D700EF4275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A39227220C639D700EF4275 /* LaunchScreen.storyboard */; };
 		2A39227720C639D700EF4275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A39227620C639D700EF4275 /* main.m */; };
-		2AF6F24C20C63CDF0019988D /* single_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F24B20C63CDF0019988D /* single_link_list.m */; };
-		2AF6F24F20C66B040019988D /* single_cycle_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F24E20C66B040019988D /* single_cycle_link_list.m */; };
-		2AF6F25220C676250019988D /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25120C676250019988D /* Node.m */; };
-		2AF6F25620C7C7E30019988D /* double_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25520C7C7E30019988D /* double_link_list.m */; };
-		2AF6F25920C7C8340019988D /* DoubleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25820C7C8340019988D /* DoubleNode.m */; };
+		2AF6F26720C8BD150019988D /* DoubleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25C20C8BD150019988D /* DoubleNode.m */; };
+		2AF6F26820C8BD150019988D /* double_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25E20C8BD150019988D /* double_link_list.m */; };
+		2AF6F26920C8BD150019988D /* single_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F26220C8BD150019988D /* single_link_list.m */; };
+		2AF6F26A20C8BD150019988D /* single_cycle_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F26420C8BD150019988D /* single_cycle_link_list.m */; };
+		2AF6F26B20C8BD150019988D /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F26620C8BD150019988D /* Node.m */; };
+		2AF6F27020C8BD740019988D /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F26F20C8BD740019988D /* BubbleSort.m */; };
+		2AF6F27920C8CF010019988D /* SelectSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F27820C8CF010019988D /* SelectSort.m */; };
+		2AF6F27C20C8DBB70019988D /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F27B20C8DBB70019988D /* InsertSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +34,22 @@
 		2A39227320C639D700EF4275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A39227520C639D700EF4275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A39227620C639D700EF4275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AF6F24A20C63CDF0019988D /* single_link_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = single_link_list.h; sourceTree = "<group>"; };
-		2AF6F24B20C63CDF0019988D /* single_link_list.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = single_link_list.m; sourceTree = "<group>"; };
-		2AF6F24D20C66B040019988D /* single_cycle_link_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = single_cycle_link_list.h; sourceTree = "<group>"; };
-		2AF6F24E20C66B040019988D /* single_cycle_link_list.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = single_cycle_link_list.m; sourceTree = "<group>"; };
-		2AF6F25020C676250019988D /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		2AF6F25120C676250019988D /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		2AF6F25420C7C7E30019988D /* double_link_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = double_link_list.h; sourceTree = "<group>"; };
-		2AF6F25520C7C7E30019988D /* double_link_list.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = double_link_list.m; sourceTree = "<group>"; };
-		2AF6F25720C7C8340019988D /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
-		2AF6F25820C7C8340019988D /* DoubleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleNode.m; sourceTree = "<group>"; };
+		2AF6F25C20C8BD150019988D /* DoubleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleNode.m; sourceTree = "<group>"; };
+		2AF6F25D20C8BD150019988D /* double_link_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = double_link_list.h; sourceTree = "<group>"; };
+		2AF6F25E20C8BD150019988D /* double_link_list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = double_link_list.m; sourceTree = "<group>"; };
+		2AF6F25F20C8BD150019988D /* DoubleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
+		2AF6F26120C8BD150019988D /* single_cycle_link_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single_cycle_link_list.h; sourceTree = "<group>"; };
+		2AF6F26220C8BD150019988D /* single_link_list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = single_link_list.m; sourceTree = "<group>"; };
+		2AF6F26320C8BD150019988D /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		2AF6F26420C8BD150019988D /* single_cycle_link_list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = single_cycle_link_list.m; sourceTree = "<group>"; };
+		2AF6F26520C8BD150019988D /* single_link_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single_link_list.h; sourceTree = "<group>"; };
+		2AF6F26620C8BD150019988D /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		2AF6F26E20C8BD740019988D /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		2AF6F26F20C8BD740019988D /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		2AF6F27720C8CF010019988D /* SelectSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
+		2AF6F27820C8CF010019988D /* SelectSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSort.m; sourceTree = "<group>"; };
+		2AF6F27A20C8DBB70019988D /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		2AF6F27B20C8DBB70019988D /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +82,8 @@
 		2A39226620C639D600EF4275 /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
-				2AF6F25320C7C7C30019988D /* 双链表 */,
-				2AF6F24920C63C670019988D /* 单链表 */,
+				2AF6F25A20C8BD150019988D /* 链表 */,
+				2AF6F26C20C8BD380019988D /* 排序 */,
 				2A39226720C639D600EF4275 /* AppDelegate.h */,
 				2A39226820C639D600EF4275 /* AppDelegate.m */,
 				2A39226A20C639D600EF4275 /* ViewController.h */,
@@ -88,28 +97,106 @@
 			path = DataStruct;
 			sourceTree = "<group>";
 		};
-		2AF6F24920C63C670019988D /* 单链表 */ = {
+		2AF6F25A20C8BD150019988D /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
-				2AF6F25020C676250019988D /* Node.h */,
-				2AF6F25120C676250019988D /* Node.m */,
-				2AF6F24A20C63CDF0019988D /* single_link_list.h */,
-				2AF6F24B20C63CDF0019988D /* single_link_list.m */,
-				2AF6F24D20C66B040019988D /* single_cycle_link_list.h */,
-				2AF6F24E20C66B040019988D /* single_cycle_link_list.m */,
+				2AF6F25B20C8BD150019988D /* 双链表 */,
+				2AF6F26020C8BD150019988D /* 单链表 */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		2AF6F25B20C8BD150019988D /* 双链表 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6F25F20C8BD150019988D /* DoubleNode.h */,
+				2AF6F25C20C8BD150019988D /* DoubleNode.m */,
+				2AF6F25D20C8BD150019988D /* double_link_list.h */,
+				2AF6F25E20C8BD150019988D /* double_link_list.m */,
+			);
+			path = "双链表";
+			sourceTree = "<group>";
+		};
+		2AF6F26020C8BD150019988D /* 单链表 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6F26320C8BD150019988D /* Node.h */,
+				2AF6F26620C8BD150019988D /* Node.m */,
+				2AF6F26520C8BD150019988D /* single_link_list.h */,
+				2AF6F26220C8BD150019988D /* single_link_list.m */,
+				2AF6F26120C8BD150019988D /* single_cycle_link_list.h */,
+				2AF6F26420C8BD150019988D /* single_cycle_link_list.m */,
 			);
 			path = "单链表";
 			sourceTree = "<group>";
 		};
-		2AF6F25320C7C7C30019988D /* 双链表 */ = {
+		2AF6F26C20C8BD380019988D /* 排序 */ = {
 			isa = PBXGroup;
 			children = (
-				2AF6F25720C7C8340019988D /* DoubleNode.h */,
-				2AF6F25820C7C8340019988D /* DoubleNode.m */,
-				2AF6F25420C7C7E30019988D /* double_link_list.h */,
-				2AF6F25520C7C7E30019988D /* double_link_list.m */,
+				2AF6F27320C8CE980019988D /* 二分查找 */,
+				2AF6F27620C8CE980019988D /* 归并排序 */,
+				2AF6F27520C8CE980019988D /* 快速排序 */,
+				2AF6F27420C8CE980019988D /* 希尔排序 */,
+				2AF6F27220C8CE980019988D /* 插入排序 */,
+				2AF6F27120C8CE980019988D /* 选择排序 */,
+				2AF6F26D20C8BD380019988D /* 冒泡排序 */,
 			);
-			path = "双链表";
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		2AF6F26D20C8BD380019988D /* 冒泡排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6F26E20C8BD740019988D /* BubbleSort.h */,
+				2AF6F26F20C8BD740019988D /* BubbleSort.m */,
+			);
+			path = "冒泡排序";
+			sourceTree = "<group>";
+		};
+		2AF6F27120C8CE980019988D /* 选择排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6F27720C8CF010019988D /* SelectSort.h */,
+				2AF6F27820C8CF010019988D /* SelectSort.m */,
+			);
+			path = "选择排序";
+			sourceTree = "<group>";
+		};
+		2AF6F27220C8CE980019988D /* 插入排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6F27A20C8DBB70019988D /* InsertSort.h */,
+				2AF6F27B20C8DBB70019988D /* InsertSort.m */,
+			);
+			path = "插入排序";
+			sourceTree = "<group>";
+		};
+		2AF6F27320C8CE980019988D /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "二分查找";
+			sourceTree = "<group>";
+		};
+		2AF6F27420C8CE980019988D /* 希尔排序 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "希尔排序";
+			sourceTree = "<group>";
+		};
+		2AF6F27520C8CE980019988D /* 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "快速排序";
+			sourceTree = "<group>";
+		};
+		2AF6F27620C8CE980019988D /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "归并排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,14 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF6F25920C7C8340019988D /* DoubleNode.m in Sources */,
+				2AF6F26720C8BD150019988D /* DoubleNode.m in Sources */,
+				2AF6F26820C8BD150019988D /* double_link_list.m in Sources */,
 				2A39226C20C639D600EF4275 /* ViewController.m in Sources */,
 				2A39227720C639D700EF4275 /* main.m in Sources */,
-				2AF6F24F20C66B040019988D /* single_cycle_link_list.m in Sources */,
-				2AF6F25620C7C7E30019988D /* double_link_list.m in Sources */,
+				2AF6F26A20C8BD150019988D /* single_cycle_link_list.m in Sources */,
+				2AF6F27020C8BD740019988D /* BubbleSort.m in Sources */,
 				2A39226920C639D600EF4275 /* AppDelegate.m in Sources */,
-				2AF6F24C20C63CDF0019988D /* single_link_list.m in Sources */,
-				2AF6F25220C676250019988D /* Node.m in Sources */,
+				2AF6F26920C8BD150019988D /* single_link_list.m in Sources */,
+				2AF6F27C20C8DBB70019988D /* InsertSort.m in Sources */,
+				2AF6F26B20C8BD150019988D /* Node.m in Sources */,
+				2AF6F27920C8CF010019988D /* SelectSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
