@@ -11,9 +11,14 @@
 #import "single_cycle_link_list.h"
 #import "double_link_list.h"
 
+#import "SortObject.h"
 #import "BubbleSort.h"
 #import "SelectSort.h"
 #import "InsertSort.h"
+#import "HillSort.h"
+#import "QuickSort.h"
+#import "MergeSort.h"
+#import "BinarySort.h"
 
 @interface ViewController ()
 
@@ -30,8 +35,12 @@
     
 //    [self bubblesort];
 //    [self selectSort];
+//    [self insertSort];
+//    [self hillSort];
+//    [self quickSort];
+//    [self mergeSort];
     
-    [self insertSort];
+    [self binarySearch];
 }
 
 #pragma mark --------------------------------------------------------
@@ -114,26 +123,53 @@
 #pragma mark - 排序
 // 冒泡排序
 - (void)bubblesort {
-    NSArray *array = [BubbleSort asc_sort:@[@5,@2,@1,@4,@3,@0]];
-    for (NSNumber *number in array) {
-        NSLog(@"number:%@",number);
-    }
+    NSArray *array = [BubbleSort asc_sort:[SortObject testArray]];
+    [SortObject printArray:array];
 }
 // 选择排序
 - (void)selectSort {
-    NSArray *array = [SelectSort sort:@[@5,@2,@1,@4,@3,@0]];
-    for (NSNumber *number in array) {
-        NSLog(@"number:%@",number);
-    }
+    NSArray *array = [SelectSort sort:[SortObject testArray]];
+    [SortObject printArray:array];
 }
 // 插入排序
 - (void)insertSort {
-    NSArray *array = [InsertSort sort:@[@5,@2,@1,@4,@3,@0]];
-    for (NSNumber *number in array) {
-        NSLog(@"number:%@",number);
+    NSArray *array = [InsertSort sort:[SortObject testArray]];
+    [SortObject printArray:array];
+}
+// 希尔排序
+- (void)hillSort {
+    NSArray *array = [HillSort sort:[SortObject testArray]];
+    [SortObject printArray:array];
+}
+// 快速排序
+- (void)quickSort {
+    NSArray *array = [QuickSort sort:[SortObject testArray]];
+    [SortObject printArray:array];
+}
+// 归并排序
+- (void)mergeSort {
+    NSArray *array = [MergeSort sort:[SortObject testArray]];
+    [SortObject printArray:array];
+}
+// 二分查找
+- (void)binarySearch {
+    NSArray *array = [MergeSort sort:[SortObject testArray]];
+    BOOL result = [BinarySort digui_search:array item:@12];
+    if (result) {
+        NSLog(@"找到了");
+    } else {
+        NSLog(@"没有找到");
+    }
+    
+    for (NSNumber *num in array) {
+        BOOL result = [BinarySort normal_search:array item:num];
+        if (result) {
+            NSLog(@"找到了");
+        } else {
+            NSLog(@"没有找到");
+        }
     }
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
