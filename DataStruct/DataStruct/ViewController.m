@@ -20,6 +20,8 @@
 #import "MergeSort.h"
 #import "BinarySort.h"
 
+#import "Tree.h"
+
 @interface ViewController ()
 
 @end
@@ -40,7 +42,9 @@
 //    [self quickSort];
 //    [self mergeSort];
     
-    [self binarySearch];
+//    [self binarySearch];
+    
+    [self binary_tree];
 }
 
 #pragma mark --------------------------------------------------------
@@ -169,6 +173,20 @@
             NSLog(@"没有找到");
         }
     }
+}
+- (void)binary_tree {
+    Tree *tree = [[Tree alloc] init];
+    [tree addElement:@"0"];
+    [tree addElement:@"1"];
+    [tree addElement:@"2"];
+    [tree addElement:@"3"];
+    [tree addElement:@"4"];
+    [tree addElement:@"5"];
+    
+//    [tree breadth_travel];
+//    [tree preorder:tree.node];
+//    [tree inorder:tree.node];
+    [tree postorder:tree.node];
 }
 
 - (void)didReceiveMemoryWarning {

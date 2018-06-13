@@ -13,6 +13,8 @@
 		2A39227120C639D700EF4275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A39227020C639D700EF4275 /* Assets.xcassets */; };
 		2A39227420C639D700EF4275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A39227220C639D700EF4275 /* LaunchScreen.storyboard */; };
 		2A39227720C639D700EF4275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A39227620C639D700EF4275 /* main.m */; };
+		2AF28B0C20CE20F000C7A348 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF28B0B20CE20F000C7A348 /* TreeNode.m */; };
+		2AF28B0F20CE469800C7A348 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF28B0E20CE469800C7A348 /* Tree.m */; };
 		2AF6F26720C8BD150019988D /* DoubleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25C20C8BD150019988D /* DoubleNode.m */; };
 		2AF6F26820C8BD150019988D /* double_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F25E20C8BD150019988D /* double_link_list.m */; };
 		2AF6F26920C8BD150019988D /* single_link_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6F26220C8BD150019988D /* single_link_list.m */; };
@@ -39,6 +41,10 @@
 		2A39227320C639D700EF4275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A39227520C639D700EF4275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A39227620C639D700EF4275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AF28B0A20CE20F000C7A348 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		2AF28B0B20CE20F000C7A348 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		2AF28B0D20CE469800C7A348 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		2AF28B0E20CE469800C7A348 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		2AF6F25C20C8BD150019988D /* DoubleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleNode.m; sourceTree = "<group>"; };
 		2AF6F25D20C8BD150019988D /* double_link_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = double_link_list.h; sourceTree = "<group>"; };
 		2AF6F25E20C8BD150019988D /* double_link_list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = double_link_list.m; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 		2A39226620C639D600EF4275 /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				2AF28B0920CE206800C7A348 /* 二叉树 */,
 				2AF6F25A20C8BD150019988D /* 链表 */,
 				2AF6F26C20C8BD380019988D /* 排序 */,
 				2A39226720C639D600EF4275 /* AppDelegate.h */,
@@ -110,6 +117,17 @@
 				2A39227620C639D700EF4275 /* main.m */,
 			);
 			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		2AF28B0920CE206800C7A348 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF28B0A20CE20F000C7A348 /* TreeNode.h */,
+				2AF28B0B20CE20F000C7A348 /* TreeNode.m */,
+				2AF28B0D20CE469800C7A348 /* Tree.h */,
+				2AF28B0E20CE469800C7A348 /* Tree.m */,
+			);
+			path = "二叉树";
 			sourceTree = "<group>";
 		};
 		2AF6F25A20C8BD150019988D /* 链表 */ = {
@@ -303,11 +321,13 @@
 				2AF6F26A20C8BD150019988D /* single_cycle_link_list.m in Sources */,
 				2AF6F28220C9111B0019988D /* SortObject.m in Sources */,
 				2AF6F27020C8BD740019988D /* BubbleSort.m in Sources */,
+				2AF28B0C20CE20F000C7A348 /* TreeNode.m in Sources */,
 				2AF6F28520C91D040019988D /* QuickSort.m in Sources */,
 				2AF6F27F20C90D4D0019988D /* HillSort.m in Sources */,
 				2A39226920C639D600EF4275 /* AppDelegate.m in Sources */,
 				2AF6F26920C8BD150019988D /* single_link_list.m in Sources */,
 				2AF6F27C20C8DBB70019988D /* InsertSort.m in Sources */,
+				2AF28B0F20CE469800C7A348 /* Tree.m in Sources */,
 				2AF6F26B20C8BD150019988D /* Node.m in Sources */,
 				2AF6F27920C8CF010019988D /* SelectSort.m in Sources */,
 			);
