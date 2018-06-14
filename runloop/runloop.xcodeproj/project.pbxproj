@@ -14,6 +14,7 @@
 		2AE65BBD20D1248700DFE9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE65BBB20D1248700DFE9DF /* LaunchScreen.storyboard */; };
 		2AE65BC020D1248700DFE9DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE65BBF20D1248700DFE9DF /* main.m */; };
 		2AE65BC920D127C600DFE9DF /* HSSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE65BC820D127C600DFE9DF /* HSSThread.m */; };
+		2AE86AF620D2517800BB666B /* NODeathThreadVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE86AF520D2517800BB666B /* NODeathThreadVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2AE65BBF20D1248700DFE9DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE65BC720D127C600DFE9DF /* HSSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSSThread.h; sourceTree = "<group>"; };
 		2AE65BC820D127C600DFE9DF /* HSSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSSThread.m; sourceTree = "<group>"; };
+		2AE86AF420D2517800BB666B /* NODeathThreadVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NODeathThreadVc.h; sourceTree = "<group>"; };
+		2AE86AF520D2517800BB666B /* NODeathThreadVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NODeathThreadVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				2AE65BC720D127C600DFE9DF /* HSSThread.h */,
 				2AE65BC820D127C600DFE9DF /* HSSThread.m */,
+				2AE86AF420D2517800BB666B /* NODeathThreadVc.h */,
+				2AE86AF520D2517800BB666B /* NODeathThreadVc.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				2AE65BB520D1248500DFE9DF /* ViewController.m in Sources */,
 				2AE65BC020D1248700DFE9DF /* main.m in Sources */,
 				2AE65BB220D1248500DFE9DF /* AppDelegate.m in Sources */,
+				2AE86AF620D2517800BB666B /* NODeathThreadVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
