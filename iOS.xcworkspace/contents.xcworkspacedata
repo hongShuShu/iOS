@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:runloop/runloop.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DataStruct/DataStruct.xcodeproj">
    </FileRef>
 </Workspace>
